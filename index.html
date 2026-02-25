@@ -162,7 +162,7 @@
                 setError(null);
                 try {
                     // Try to connect to Python backend first
-                    const response = await fetch('/api/predict', {
+                    const response = await fetch('https://nafila572.hf.space/api/agripredict', {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify(formData)
